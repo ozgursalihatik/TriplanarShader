@@ -12,91 +12,123 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63711
+52258
 Successfully changed project path to: /Users/ozgur/Documents/Unity-Projeleri/Triplanar-Shader
 /Users/ozgur/Documents/Unity-Projeleri/Triplanar-Shader
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 81.28 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 85.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path /Users/ozgur/Documents/Unity Dosyaları/2020.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/ozgur/Documents/Unity-Projeleri/Triplanar-Shader/Assets
 GfxDevice: creating device client; threaded=0
-2021-07-28 11:20:02.283 Unity[16153:854977] (null) preferred device: Apple M1 (high power)
-2021-07-28 11:20:02.283 Unity[16153:854977] Metal devices available: 1
-2021-07-28 11:20:02.283 Unity[16153:854977] 0: Apple M1 (high power)
-2021-07-28 11:20:02.283 Unity[16153:854977] Using device Apple M1 (high power)
+2021-07-28 17:02:53.601 Unity[18109:976892] (null) preferred device: Apple M1 (high power)
+2021-07-28 17:02:53.601 Unity[18109:976892] Metal devices available: 1
+2021-07-28 17:02:53.601 Unity[18109:976892] 0: Apple M1 (high power)
+2021-07-28 17:02:53.601 Unity[18109:976892] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Users/ozgur/Documents/Unity Dosyaları/2020.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/ozgur/Documents/Unity Dosyaları/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Users/ozgur/Documents/Unity Dosyaları/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56153
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56109
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/ozgur/Documents/Unity Dosyaları/2020.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Users/ozgur/Documents/Unity Dosyaları/2020.3.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001513 seconds.
+Registered in 0.001433 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 45.08 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 47.26 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.402 seconds
+- Completed reload, in  2.327 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004313 seconds.
+Registered in 0.005178 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 46.89 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 47.40 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.619 seconds
+- Completed reload, in  2.422 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launching external process: /Users/ozgur/Documents/Unity Dosyaları/2020.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.46 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2832 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.6 MB.
-System memory in use after: 206.0 MB.
+System memory in use before: 208.9 MB.
+System memory in use after: 206.2 MB.
 
 Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 3225.
-Total: 5.866916 ms (FindLiveObjects: 0.562375 ms CreateObjectMapping: 0.062875 ms MarkObjects: 3.615750 ms  DeleteObjects: 1.624792 ms)
+Total: 3.183250 ms (FindLiveObjects: 0.242833 ms CreateObjectMapping: 0.059167 ms MarkObjects: 1.515542 ms  DeleteObjects: 1.364791 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph
-  artifactKey: Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph using Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e73d96fdde55f12c923f9cc0e96a53f') in 0.771244 seconds
-  Import took 0.775951 seconds .
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b3f476ab718b1cf20d183dd9addfe7') in 0.988149 seconds
+  Import took 0.992897 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.347850 seconds.
-  path: Assets/3-Scene/SampleSceneLightingSettings.lighting
-  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3-Scene/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a26a52e718306fba651ad1c5ff177c0') in 0.247300 seconds
-  Import took 0.258292 seconds .
+  Time since last request: 0.000287 seconds.
+  path: Assets/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b226a0bb157262eadf686f6bb5b5f1f8') in 0.003837 seconds
+  Import took 0.008152 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 138.877513 seconds.
-  path: Assets/2-Material and Texture/MAT-Triplanar.mat
-  artifactKey: Guid(a5cdecfa09962467e802d3c98a856df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2-Material and Texture/MAT-Triplanar.mat using Guid(a5cdecfa09962467e802d3c98a856df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801ae59c2dcf2351c673584cdb0221e2') in 1.037850 seconds
-  Import took 1.062697 seconds .
+  Time since last request: 0.000215 seconds.
+  path: Assets/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd421f548a6507a11f25ec3578746e9c1') in 0.001583 seconds
+  Import took 0.005341 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.397145 seconds.
-  path: Assets/3-Scene
-  artifactKey: Guid(88a19e0c98dbe493f850d97deaf04e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3-Scene using Guid(88a19e0c98dbe493f850d97deaf04e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0bf95af94a7755fca3140204015abb') in 0.002980 seconds
-  Import took 0.014130 seconds .
+  Time since last request: 0.000242 seconds.
+  path: Assets/Settings/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e18c1f933b70f494440bf5e7626866') in 0.001977 seconds
+  Import took 0.008815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cf95242464b0f1307a08bc2392aaaa') in 0.013250 seconds
+  Import took 0.040330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.265165 seconds.
+  path: Assets/Triplanar Shader
+  artifactKey: Guid(746e3c86d46694b61993ea091f0a3ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triplanar Shader using Guid(746e3c86d46694b61993ea091f0a3ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b265ed863fdf107cdf155cf873ada8') in 0.001274 seconds
+  Import took 0.004909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041221 seconds.
+  path: Assets/Triplanar Shader
+  artifactKey: Guid(746e3c86d46694b61993ea091f0a3ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triplanar Shader using Guid(746e3c86d46694b61993ea091f0a3ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b265ed863fdf107cdf155cf873ada8') in 0.000909 seconds
+  Import took 0.004555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.627952 seconds.
+  path: Assets/Triplanar Shader/3-Scene/TraplanarShader.unity
+  artifactKey: Guid(1ce533a2d7bea4211a4794fb2a2b3523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triplanar Shader/3-Scene/TraplanarShader.unity using Guid(1ce533a2d7bea4211a4794fb2a2b3523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92484875a96cf8e97d505373da642faa') in 0.003426 seconds
+  Import took 0.016622 seconds .
 
