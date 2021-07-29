@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Triplanar Shader/3-Scene/TraplanarShader.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
