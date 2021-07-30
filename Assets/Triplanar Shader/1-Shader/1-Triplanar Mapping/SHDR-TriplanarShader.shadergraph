@@ -2457,7 +2457,7 @@
     "m_Guid": {
         "m_GuidSerialized": "dd94955b-04b2-4040-a169-7d33749699a0"
     },
-    "m_Name": "First Side Y",
+    "m_Name": "Top Y",
     "m_DefaultReferenceName": "Vector1_5c3c246d282f4c8b817c888fa11cac3b",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -3491,7 +3491,7 @@
     "m_Guid": {
         "m_GuidSerialized": "ff157164-39fd-4b3a-8264-54fac7405b6d"
     },
-    "m_Name": "Top Y",
+    "m_Name": "Side 2 Y",
     "m_DefaultReferenceName": "Vector1_988910bf464042a8ab45203d4e26bcd9",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -3514,7 +3514,7 @@
     "m_Guid": {
         "m_GuidSerialized": "03333193-c368-4621-8c2c-ee197298bc61"
     },
-    "m_Name": "Second Side X",
+    "m_Name": "Side 1 X",
     "m_DefaultReferenceName": "Vector1_9eb78702a9a24a44967e7cffe12d1ed6",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -4013,7 +4013,7 @@
     "m_Guid": {
         "m_GuidSerialized": "959c05ce-9e4f-4a72-9aa7-88ade1630962"
     },
-    "m_Name": "First Side X",
+    "m_Name": "Top X",
     "m_DefaultReferenceName": "Vector1_b6d04d6584cc44ca8c1c93e9bab16cfe",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -4433,7 +4433,7 @@
     "m_Guid": {
         "m_GuidSerialized": "d78bb7b7-1595-4c59-85d2-a2a91e4ab05d"
     },
-    "m_Name": "Second Side Y",
+    "m_Name": "Side 1 Y",
     "m_DefaultReferenceName": "Vector1_cc5f10021c114ad9a57a32c1a27d9623",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -5890,7 +5890,7 @@
     "m_Guid": {
         "m_GuidSerialized": "ae4a625a-a031-43df-a972-eff57118875c"
     },
-    "m_Name": "Top X",
+    "m_Name": "Side 2 X",
     "m_DefaultReferenceName": "Vector1_fba850e551374ee2a4b1b946b150a53c",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,

@@ -15,11 +15,11 @@ C:/Users/ozgur/Documents/Unity-Shader/TriplanarShader
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65181
+50003
 Successfully changed project path to: C:/Users/ozgur/Documents/Unity-Shader/TriplanarShader
 C:/Users/ozgur/Documents/Unity-Shader/TriplanarShader
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 48.67 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 47.85 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -35,74 +35,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002115 seconds.
+Registered in 0.001979 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.52 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 47.87 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.044 seconds
+- Completed reload, in  1.088 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1044ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (1088ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (380ms)
+		EndReloadAssembly (402ms)
 			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (134ms)
+			SetupTypeCache (140ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (150ms)
+			SetupLoadedEditorAssemblies (167ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006213 seconds.
+Registered in 0.005242 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.37 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 44.97 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.023 seconds
+- Completed reload, in  1.046 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1023ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (1047ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (829ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (850ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
+			SetupTypeCache (285ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (310ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (321ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (178ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (170ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -111,15 +111,15 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2836 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.4 MB.
-System memory in use after: 122.7 MB.
+System memory in use before: 125.5 MB.
+System memory in use after: 122.8 MB.
 
 Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 3229.
-Total: 3.886000 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.099000 ms MarkObjects: 2.269900 ms  DeleteObjects: 1.253200 ms)
+Total: 3.574000 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.103300 ms MarkObjects: 2.064000 ms  DeleteObjects: 1.147800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,225 +133,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping
-  artifactKey: Guid(9e2a4ee77838e4a9faa457e45257884e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping using Guid(9e2a4ee77838e4a9faa457e45257884e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae7a9c10552d59956bc1ebbf93f841d') in 0.005108 seconds 
-  Import took 0.008496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/Triplanar Shader
-  artifactKey: Guid(746e3c86d46694b61993ea091f0a3ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader using Guid(746e3c86d46694b61993ea091f0a3ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8beb91248d0a02fbd41ead2961ee61') in 0.002233 seconds 
-  Import took 0.006389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/Triplanar Shader/1-Shader
-  artifactKey: Guid(d3fbee5da68454f59ad121782aadca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/1-Shader using Guid(d3fbee5da68454f59ad121782aadca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b177e98013390a821c131e4fc2d8d3f') in 0.002301 seconds 
-  Import took 0.007934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061077 seconds.
   path: Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph
   artifactKey: Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph using Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29e38caeccb6dfe948d6aeb00b594cd') in 0.019951 seconds 
-  Import took 0.023710 seconds .
+Start importing Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph using Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68b6534e5d60f0de4070b74c76ae62b') in 0.028904 seconds 
+  Import took 0.032676 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.313853 seconds.
-  path: Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph
-  artifactKey: Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph using Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29e38caeccb6dfe948d6aeb00b594cd') in 0.003047 seconds 
-  Import took 0.007713 seconds .
+  Time since last request: 129.732859 seconds.
+  path: Assets/Triplanar Shader/2-Material and Texture/Ground1.jpg
+  artifactKey: Guid(165ebf9b6a121024782607596968830b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triplanar Shader/2-Material and Texture/Ground1.jpg using Guid(165ebf9b6a121024782607596968830b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2ebe2238ed39c808df0f6bba4db0a4') in 0.035590 seconds 
+  Import took 0.040354 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.204579 seconds.
-  path: Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph
-  artifactKey: Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph using Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9971f4d689a8ef973fad544941ccbd7c') in 0.002772 seconds 
-  Import took 0.006589 seconds .
+  Time since last request: 2.496070 seconds.
+  path: Assets/Triplanar Shader/2-Material and Texture/Ground3.png
+  artifactKey: Guid(d9813aecf2146ec499a7fe57d0a56f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triplanar Shader/2-Material and Texture/Ground3.png using Guid(d9813aecf2146ec499a7fe57d0a56f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fcd93119cadc4e594bb966218bb183') in 0.010850 seconds 
+  Import took 0.015801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.340394 seconds.
+  Time since last request: 1.953545 seconds.
+  path: Assets/Triplanar Shader/2-Material and Texture/Ground2.jpg
+  artifactKey: Guid(c8306144703c6c84cb39671a1a0bd6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Triplanar Shader/2-Material and Texture/Ground2.jpg using Guid(c8306144703c6c84cb39671a1a0bd6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fdec49b21c777c592cdeeed3546935') in 0.007858 seconds 
+  Import took 0.012404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.633489 seconds.
   path: Assets/Triplanar Shader/2-Material and Texture/MAT-Triplanar.mat
   artifactKey: Guid(a5cdecfa09962467e802d3c98a856df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/2-Material and Texture/MAT-Triplanar.mat using Guid(a5cdecfa09962467e802d3c98a856df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b862a64c7b33e7aeb1be395d6c5023') in 0.203972 seconds 
-  Import took 0.208439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Triplanar Shader/2-Material and Texture/pexels-mitchell-luo-3694711.jpg
-  artifactKey: Guid(1ce97ce9d660b4f9f86853354cc2dace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/2-Material and Texture/pexels-mitchell-luo-3694711.jpg using Guid(1ce97ce9d660b4f9f86853354cc2dace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a4da2c6fdde8f34e4b467edf856371') in 0.082477 seconds 
-  Import took 0.086742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Triplanar Shader/2-Material and Texture/pexels-the-happiest-face-)-866351.jpg
-  artifactKey: Guid(3fcca78e300704fd3b6e99a9ca59a269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/2-Material and Texture/pexels-the-happiest-face-)-866351.jpg using Guid(3fcca78e300704fd3b6e99a9ca59a269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94becad2cdba528e15fd9fab6219e6e8') in 0.009509 seconds 
-  Import took 0.013036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/Triplanar Shader/2-Material and Texture/pexels-lukas-1420710.jpg
-  artifactKey: Guid(cea21a9ff210a4b34b9fdef3b7abbf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/2-Material and Texture/pexels-lukas-1420710.jpg using Guid(cea21a9ff210a4b34b9fdef3b7abbf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba2410e987acf9009ea32764ae38214') in 0.010564 seconds 
-  Import took 0.014424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 98.448467 seconds.
-  path: Assets/Triplanar Shader/2-Material and Texture/MAT-Triplanar.mat
-  artifactKey: Guid(a5cdecfa09962467e802d3c98a856df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/2-Material and Texture/MAT-Triplanar.mat using Guid(a5cdecfa09962467e802d3c98a856df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb9d621c5ca75ba3a7e3c1e69b0fc60') in 0.015338 seconds 
-  Import took 0.019941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007859 seconds.
-  path: Assets/Triplanar Shader/2-Material and Texture
-  artifactKey: Guid(afb4016dfee5e4703b29a579d1245d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/2-Material and Texture using Guid(afb4016dfee5e4703b29a579d1245d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2c80fc28de7e5b1955caa8f402ba23') in 0.002079 seconds 
-  Import took 0.005719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011082 seconds.
-  path: Assets/Triplanar Shader/3-Scene
-  artifactKey: Guid(88a19e0c98dbe493f850d97deaf04e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/3-Scene using Guid(88a19e0c98dbe493f850d97deaf04e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a9b9442ffad5b0c6765be65a50e4a0') in 0.002259 seconds 
-  Import took 0.006489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003733 seconds.
-  path: Assets/Triplanar Shader/3-Scene/TraplanarShader.unity
-  artifactKey: Guid(1ce533a2d7bea4211a4794fb2a2b3523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/3-Scene/TraplanarShader.unity using Guid(1ce533a2d7bea4211a4794fb2a2b3523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdf3e3873414166cd488b1290318c84') in 0.002592 seconds 
-  Import took 0.006474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 507.747927 seconds.
-  path: Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph
-  artifactKey: Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph using Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb04181efffbd3be435892b1201bb26') in 0.002681 seconds 
-  Import took 0.007256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 224.276620 seconds.
-  path: Assets/Triplanar Shader/2-Material and Texture/MAT-Triplanar.mat
-  artifactKey: Guid(a5cdecfa09962467e802d3c98a856df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/2-Material and Texture/MAT-Triplanar.mat using Guid(a5cdecfa09962467e802d3c98a856df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7172bfb87a4e465bf46dae83d8ca7b') in 0.015743 seconds 
-  Import took 0.020167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016911 seconds.
-  path: Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph
-  artifactKey: Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph using Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813462074d7edf34045e6e8cd4253e7e') in 0.002721 seconds 
-  Import took 0.006789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2914.912125 seconds.
-  path: Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph
-  artifactKey: Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph using Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b31b1948cade7cf45743540faec39c') in 0.003289 seconds 
-  Import took 0.008308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002980 seconds.
-  path: Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph
-  artifactKey: Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph using Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b31b1948cade7cf45743540faec39c') in 0.002582 seconds 
-  Import took 0.006762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 214.685174 seconds.
-  path: Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph
-  artifactKey: Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph using Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b300ec7fe3c88609890f829f47f190') in 0.002623 seconds 
-  Import took 0.007255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 331.527990 seconds.
-  path: Assets/Triplanar Shader/2-Material and Texture/MAT-Triplanar.mat
-  artifactKey: Guid(a5cdecfa09962467e802d3c98a856df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/2-Material and Texture/MAT-Triplanar.mat using Guid(a5cdecfa09962467e802d3c98a856df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3fec266ad332ed03a9a95cafccf3a4') in 0.019609 seconds 
-  Import took 0.024138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.673745 seconds.
-  path: Assets/Settings/ForwardRenderer.asset
-  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa9b3dd9f62dc012d0e81b7cffdedc2') in 0.005296 seconds 
-  Import took 0.009601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e032b039bcbd1476593e9ea1649b903') in 0.005147 seconds 
-  Import took 0.008851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000547 seconds.
-  path: Assets/Settings/UniversalRP-LowQuality.asset
-  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6873b356855449b052d88fb52d94f6af') in 0.005489 seconds 
-  Import took 0.010019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Settings/UniversalRP-MediumQuality.asset
-  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cdbeeea9b42e2bf86e8c80c7608cd0') in 0.006076 seconds 
-  Import took 0.011494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/Settings/UniversalRP-HighQuality.asset
-  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830a19abacffd2982fe520f0b2e7493f') in 0.003728 seconds 
-  Import took 0.007777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.515251 seconds.
-  path: Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph
-  artifactKey: Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/1-Shader/1-Triplanar Mapping/SHDR-TriplanarShader.shadergraph using Guid(ccf9392631a1a44b1a3104296f8ca6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1e7154a4dc40896d8284b6fca9e843') in 0.002843 seconds 
-  Import took 0.006914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006130 seconds.
-  path: Assets/Triplanar Shader/3-Scene/TraplanarShader.unity
-  artifactKey: Guid(1ce533a2d7bea4211a4794fb2a2b3523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Triplanar Shader/3-Scene/TraplanarShader.unity using Guid(1ce533a2d7bea4211a4794fb2a2b3523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b7e7d7781c50ff9b3cc1dd15fd7cc6') in 0.002665 seconds 
-  Import took 0.006733 seconds .
+Start importing Assets/Triplanar Shader/2-Material and Texture/MAT-Triplanar.mat using Guid(a5cdecfa09962467e802d3c98a856df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839cbbb1dc7ef22c15308c9e9eab6aa8') in 0.165461 seconds 
+  Import took 0.169923 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
